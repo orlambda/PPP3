@@ -1,23 +1,29 @@
 #include "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP/PPP_support/PPPheaders.h"
 
-// calculates operations left-to-right, does not consider order of operations
+// Calculate operations left-to-right, not considering order of operations
 int main() {
-    // prompt
+    // Prompt
     cout << "Enter an expression (we support '+', '-', '*', '/', and '%'), terminating with '=': ";
-    // get input
-    // calculate
+    // Get input
+    // Calculate
+
+    // Get first operand
     double lval;
     cin >> lval;
+    // Calculate operations
     while(true)
     {
+        // Get operator-operand pairs or terminating character
         char op = '0';
         cin >> op;
+        // User terminates with '='
         if (op == '=')
         {
             break;
         }
         double rval;
         cin >> rval;
+        // Check operator and calculate
         switch(op)
         {
             case '+':
@@ -33,12 +39,12 @@ int main() {
                 lval /= rval;
                 break;
             case '%':
-                lval = fmod(lval, rval);
+                lval = fmod(lval, rval); // % is int only
                 break;
             default:
                 error("Unrecognised operator");
         }
     }
-    // output
+    // Output
     cout << "Result: " << lval << endl;
 }
