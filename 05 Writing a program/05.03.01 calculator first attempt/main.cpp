@@ -1,5 +1,6 @@
 #include "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP/PPP_support/PPPheaders.h"
 
+// calculates operations left-to-right, does not consider order of operations
 int main() {
     // prompt
     cout << "Enter an expression (we support '+', '-', '*', '/', and '%'), terminating with '=': ";
