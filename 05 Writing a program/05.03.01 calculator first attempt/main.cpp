@@ -1,4 +1,4 @@
-#include "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP/PPP_support/PPPheaders.h"
+#include "../../PPP_support/PPPheaders.h"
 
 // Calculate operations left-to-right, not considering order of operations
 int main() {
