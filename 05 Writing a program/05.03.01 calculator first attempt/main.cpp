@@ -4,25 +4,24 @@
 int main() {
     // Prompt
     cout << "Enter an expression (we support '+', '-', '*', '/', and '%'), terminating with '=': ";
-    // Get input
-    // Calculate
 
     // Get first operand
     double lval;
     cin >> lval;
+
     // Calculate operations
     while(true)
     {
         // Get operator-operand pairs or terminating character
         char op = '0';
         cin >> op;
-        // User terminates with '='
-        if (op == '=')
+        if (op == '=') // User terminates with '='
         {
             break;
         }
         double rval;
         cin >> rval;
+
         // Check operator and calculate
         switch(op)
         {
@@ -45,6 +44,7 @@ int main() {
                 error("Unrecognised operator");
         }
     }
+
     // Output
     cout << "Result: " << lval << endl;
 }
