@@ -1,0 +1,3 @@
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_18 quadratic formula/cmake-build-debug/CMakeFiles/4_e_18_quadratic_formula.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_18 quadratic formula/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_18 quadratic formula/cmake-build-debug/CMakeFiles/rebuild_cache.dir

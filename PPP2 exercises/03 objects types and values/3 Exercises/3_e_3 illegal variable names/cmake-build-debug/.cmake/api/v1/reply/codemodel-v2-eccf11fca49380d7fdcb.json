@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3_e_3_illegal_variable_names",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3_e_3_illegal_variable_names::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_e_3_illegal_variable_names-Debug-af17d5dc2e0b20676320.json",
+					"name" : "3_e_3_illegal_variable_names",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3 Exercises/3_e_3 illegal variable names/cmake-build-debug",
+		"source" : "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3 Exercises/3_e_3 illegal variable names"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

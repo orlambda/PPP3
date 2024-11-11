@@ -1,0 +1,3 @@
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/05 errors/05_e_12 cows/cmake-build-debug/CMakeFiles/05_e_12_cows.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/05 errors/05_e_12 cows/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/05 errors/05_e_12 cows/cmake-build-debug/CMakeFiles/rebuild_cache.dir

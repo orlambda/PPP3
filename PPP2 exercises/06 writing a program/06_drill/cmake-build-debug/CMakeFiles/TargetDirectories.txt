@@ -1,0 +1,3 @@
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/06 writing a program/06_drill/cmake-build-debug/CMakeFiles/06_drill.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/06 writing a program/06_drill/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/06 writing a program/06_drill/cmake-build-debug/CMakeFiles/rebuild_cache.dir

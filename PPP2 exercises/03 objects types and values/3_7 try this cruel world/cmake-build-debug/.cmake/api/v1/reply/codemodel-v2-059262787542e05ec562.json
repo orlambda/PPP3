@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "3_7_try_this_cruel_world",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "3_7_try_this_cruel_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_7_try_this_cruel_world-Debug-0c9beca3d996354aa04a.json",
+					"name" : "3_7_try_this_cruel_world",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3_7 try this cruel world/cmake-build-debug",
+		"source" : "/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3_7 try this cruel world"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
