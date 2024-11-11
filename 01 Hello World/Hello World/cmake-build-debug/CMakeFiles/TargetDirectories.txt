@@ -1,0 +1,3 @@
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/01 Hello World/Hello World/cmake-build-debug/CMakeFiles/Hello_World.dir
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/01 Hello World/Hello World/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/01 Hello World/Hello World/cmake-build-debug/CMakeFiles/rebuild_cache.dir
