@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "07_05_constructing_within_a_loop",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "07_05_constructing_within_a_loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07_05_constructing_within_a_loop-Debug-08cd0f1bab25b4299dee.json",
+					"name" : "07_05_constructing_within_a_loop",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/07 Technicalities/07.05 constructing within a loop/cmake-build-debug",
+		"source" : "/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/07 Technicalities/07.05 constructing within a loop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
