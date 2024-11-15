@@ -1,0 +1,3 @@
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/08 Classes/08 trying enums/cmake-build-debug/CMakeFiles/08_trying_enums.dir
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/08 Classes/08 trying enums/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/08 Classes/08 trying enums/cmake-build-debug/CMakeFiles/rebuild_cache.dir
