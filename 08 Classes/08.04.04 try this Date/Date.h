@@ -4,6 +4,7 @@
 
 #ifndef DATE_H
 #define DATE_H
+#include <ostream>
 
 class Date {
 public:
@@ -17,6 +18,6 @@ private:
     int y, m, d;
 };
 
-
+std::ostream& operator<<(std::ostream& os, Date d);
 
 #endif //DATE_H
