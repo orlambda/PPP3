@@ -18,6 +18,6 @@ int main()
     Day monday2 {Day::monday};
     Day sunday2 {6};
     cout << (sunday2 == Day::sunday) << endl; // true
-    cout << (++sunday2 == Day::monday) << endl; // false
+    cout << (++sunday2 == Day::monday) << endl; // true
     // cout << static_cast<int>(Day::fakesday); // error
 }
