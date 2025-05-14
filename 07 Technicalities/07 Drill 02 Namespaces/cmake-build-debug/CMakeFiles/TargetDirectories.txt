@@ -1,3 +1,0 @@
-/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/07 Technicalities/07 Drill 02 Namespaces/cmake-build-debug/CMakeFiles/07_Drill_02_Namespaces.dir
-/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/07 Technicalities/07 Drill 02 Namespaces/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/orlandoshamlou/Documents/Coding/Study/CPP_CLion/PPP3/07 Technicalities/07 Drill 02 Namespaces/cmake-build-debug/CMakeFiles/rebuild_cache.dir

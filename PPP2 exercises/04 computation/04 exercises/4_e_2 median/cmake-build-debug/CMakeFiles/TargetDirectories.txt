@@ -1,3 +1,0 @@
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_2 median/cmake-build-debug/CMakeFiles/4_e_2_median.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_2 median/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/04 computation/04 exercises/4_e_2 median/cmake-build-debug/CMakeFiles/rebuild_cache.dir

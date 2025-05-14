@@ -1,8 +1,0 @@
-# ninja log v5
-1	29	1714847398789783031	CMakeFiles/my_calculator_attempt.dir/TokenStream.cpp.o	83c5a663f0091d7c
-1	29	1714847398789807823	CMakeFiles/my_calculator_attempt.dir/Token.cpp.o	4f5c09cbfa343aa4
-1	29	1714847398789779823	CMakeFiles/my_calculator_attempt.dir/Expression.cpp.o	a83c834913e971ba
-1	30	1714847398789794614	CMakeFiles/my_calculator_attempt.dir/Term.cpp.o	cddd8186fe251f2b
-1	30	1714847398789767406	CMakeFiles/my_calculator_attempt.dir/Primary.cpp.o	e114b6c3e9147162
-1	386	1714847399144901165	CMakeFiles/my_calculator_attempt.dir/main.cpp.o	c31147db0581da25
-387	420	1714847399180553502	my_calculator_attempt	12de351fa4d8bd55

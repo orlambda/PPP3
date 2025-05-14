@@ -1,3 +1,0 @@
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3_3 try this age in months/cmake-build-debug/CMakeFiles/3_3_try_this_age_in_months.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3_3 try this age in months/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3_3 try this age in months/cmake-build-debug/CMakeFiles/rebuild_cache.dir

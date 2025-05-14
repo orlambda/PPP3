@@ -1,3 +1,0 @@
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3 Exercises/3_e_2 kilometers/cmake-build-debug/CMakeFiles/3_e_2_kilometers.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3 Exercises/3_e_2 kilometers/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/orlandoshamlou/Documents/Coding/CPP_CLion/PPP exercises/03 objects types and values/3 Exercises/3_e_2 kilometers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
