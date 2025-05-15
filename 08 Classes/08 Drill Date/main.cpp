@@ -1,8 +1,16 @@
 #include "Date.h"
 #include "../../PPP_support/PPPheaders.h"
 
+void operator++(Month& m) {
+    m = (m==Month::dec) ? Month::jan : Month{static_cast<int>(m)+1};
+    // return m;
+}
+
 ostream& operator<<(ostream& os, Date date) {
-    return os << date.year() << "." << date.month() << "." << date.day() << endl; }
+    return os << date.year() << "." << date.month() << "." << date.day(); }
+
+ostream& operator<<(ostream& os, Month month) {
+    return os << static_cast<int>(month); }
 
 int main() {
     enum nothing {
@@ -18,7 +26,9 @@ int main() {
     std::cout << m2int << endl;
     std::cout << static_cast<int>(Month::jan) << endl;
     // No error checking in place for valid months
-    Month m13 = Month{13};
-    std::cout << static_cast<int>(m13) << endl;
+    Month m12 = Month{12};
+    ++m12;
+    // Uses Month's << operator overloading
+    std::cout << m12 << endl;
 }
 
