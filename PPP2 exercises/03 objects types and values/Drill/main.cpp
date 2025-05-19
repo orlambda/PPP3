@@ -37,11 +37,11 @@ int main() {
     cout << "\tHave you seen " << friend_name << " recently? ";
     // 4. Friend's pronouns
 
-    if (friend_pronouns == 'h')
+    if (friend_pronouns == 'h' || friend_pronouns == 'H')
     {
         cout << "If you see him please ask him to call me." << endl;
     }
-    else if (friend_pronouns == 's')
+    else if (friend_pronouns == 's' || friend_pronouns == 'S')
     {
         cout << "If you see her please ask her to call me." << endl;
     }
