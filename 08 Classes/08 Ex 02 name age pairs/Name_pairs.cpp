@@ -14,7 +14,6 @@ void Name_pairs::add_pair(const string& name, double age) {
 }
 void Name_pairs::read_names() {
     string name;
-    // TODO: allow spaces
     cout << "Enter names, '.' to quit:" << endl;
     while (cin) {
         std::getline(cin, name);
@@ -65,6 +64,7 @@ void Name_pairs::sort_by_age() {
                 index_of_highest_age = j;
             }
         }
+        // TODO: Swap entries instead of resizing vector
         // Remove name and age from that index
         string name_buffer = names[index_of_highest_age];
         double age_buffer = ages[index_of_highest_age];
@@ -88,6 +88,7 @@ void Name_pairs::sort_by_name() {
                 index_of_highest_name = j;
             }
         }
+        // TODO: Swap entries instead of resizing vector
         // Remove name and age from that index
         string name_buffer = names[index_of_highest_name];
         double age_buffer = ages[index_of_highest_name];
