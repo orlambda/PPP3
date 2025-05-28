@@ -6,6 +6,7 @@
 
 // Steps taken:
 // Could not iteratively populate vector of Polygons - Polygons missing/bad copy constructor?
+    // Use provided Vector_ref
 // Calculated radii so that all Polygons have equal side lengths (so p3 fits in p4)
     // Not accurate for p5 and above - of course, as this would tend towards infinity as polygon tends towards a circle
 // Move triangle down to inscribe it within the square
@@ -55,6 +56,7 @@ int main(int /*argc*/, char* /*argv*/[])
     Application app;
     Simple_window window({100, 100}, 900, 900, "Main window");
     Point origin{500, 500};
+
 
     // Polygon origin_pointer;
     // origin_pointer.add(origin);
@@ -128,7 +130,6 @@ int main(int /*argc*/, char* /*argv*/[])
     double p5_under_p4_wanted = pentagon_height - p5_height_above_p4 - square_side_length;
     double p5_under_p4_default = pentagon_height - pentagon_radius - (square_side_length * 0.5);
 
-
     Polygon triangle;
     build_regular_pgon(triangle, Point{origin.x,static_cast<int>(origin.y + p3p4b_default - p3p4b_wanted)}, 3, triangle_radius, ((2*pi/3/2)-pi/2));
 
@@ -161,8 +162,11 @@ void build_regular_pgon(Polygon& p, Point centre, int sides, double radius, doub
     }
 }
 
+// This gives angle measuring anti-clockwise
+// Use commented out line instead to measure clockwise
 Point point_from_centre (Point origin, double angle_in_radians, double radius) {
     int x = static_cast<int>(cos(angle_in_radians) * radius);
+    // int y = static_cast<int>((sin(angle_in_radians) * radius));
     int y = static_cast<int>(-(sin(angle_in_radians) * radius));
     return Point{x + origin.x, y + origin.y};
 }
