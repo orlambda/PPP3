@@ -29,6 +29,7 @@ set(PROJECT_SOURCES
     Colormap.cpp
         Arrow.cpp
         Arrow.h
+        ex02_rect_points.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
