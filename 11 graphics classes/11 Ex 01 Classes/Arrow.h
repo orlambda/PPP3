@@ -16,7 +16,7 @@ public:
 
 double angle_between_points(Point a, Point b);
 
-Point point_from_centre (Point origin, double angle_in_radians, double radius);
+Point point_from_centre(Point origin, double angle_in_radians, double radius);
 
 
 

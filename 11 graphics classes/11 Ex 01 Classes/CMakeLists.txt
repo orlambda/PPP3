@@ -30,6 +30,7 @@ set(PROJECT_SOURCES
         Arrow.cpp
         Arrow.h
         ex02_rect_points.h
+        ex03_circle_ellipse_points.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
