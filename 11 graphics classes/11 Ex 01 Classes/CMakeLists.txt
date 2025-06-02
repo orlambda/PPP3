@@ -31,6 +31,12 @@ set(PROJECT_SOURCES
         Arrow.h
         ex02_rect_points.h
         ex03_circle_ellipse_points.h
+        Smiley.cpp
+        Smiley.h
+        ../../../../../../../../../opt/homebrew/lib/QtGui.framework/Headers/Frowny.cpp
+        ../../../../../../../../../opt/homebrew/lib/QtGui.framework/Headers/Frowny.h
+        Immovable_circle.cpp
+        Immovable_circle.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
