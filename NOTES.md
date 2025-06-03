@@ -1,6 +1,4 @@
 ## Exercises to come back to
-### §9
-26
 ### §10
 (12)
 ### §11
