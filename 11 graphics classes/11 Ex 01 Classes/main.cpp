@@ -11,6 +11,13 @@
  *
  *
  * Ch 12 Ex 01: Smiley and frowny
+ * Lots of possible improvements: see striped rectangle for not storing other drawn shapes as member ds
+ * Ch 12 Ex 05: Striped Rectangle
+ * Ch 12 Ex 06:
+ * Ch 12 Ex 08:
+ *
+ *
+ *
  */
 
 #include <QtCore/qnamespace.h>
@@ -25,21 +32,25 @@
 #include "Immovable_circle.h"
 #include "Improved_ellipse.h"
 #include "Smiley.h"
+#include "Striped_rectangle.h"
 
 using namespace Graph_lib;
 using std::exception;
 
+// Functions to demonstrate answers - see relevant class files
 void ch11(Simple_window& win);
-void ch12(Simple_window& win);
+void ch12ex01(Simple_window& win);
+void ch12ex04(Simple_window& win);
+void ch12ex05(Simple_window& win);
 
 int main()
 {
     Application app;
     Simple_window win({20, 20}, 1000, 1000, "Main window");
 
-    ch11(win); // uncomment to run Ch 11 Exes 01-03 & 09
-    // ch12(win); // uncomment to run Ch 12 Ex 01
-
+    // ch11(win); // uncomment to run Ch 11 Exes 01-03 & 09
+    // ch12ex01(win); // uncomment to run Ch 12 Ex 01
+    // ch12ex05(win); // uncomment to run Ch 12 Ex 05
     Improved_ellipse e{Point{200, 200}, 10, 50};
     // win.attach(e);
     // double distance_between_focal_points = abs(e.focus1().x - e.focus2().x) + abs(e.focus1().y - e.focus2().y);
@@ -111,34 +122,39 @@ void ch11(Simple_window& win) {
     }
 }
 
-void ch12(Simple_window& win) {
-    // ch12ex01
-    {
-        Frowny c{Point{300,300}, 130};
+void ch12ex01(Simple_window& win) {
+    Frowny c{Point{300,300}, 130};
 
-        win.attach(c);
-        win.wait_for_button();
+    win.attach(c);
+    win.wait_for_button();
 
-        c.move(400, 400);
-        win.wait_for_button(); // uncomment to see this code run
+    c.move(400, 400);
+    win.wait_for_button(); // uncomment to see this code run
 
-        // How to use arc (segment of a curve = based on an ellipse)
-        // point: centre
-        // ww/hh: radial
-        // s_angle: starting angle in degrees. 0 = E, measured anticlockwise
-        // dgr: length of segment 0-360 measured anticlockwise (negative = clockwise)
-    }
+    // How to use arc (segment of a curve = based on an ellipse)
+    // point: centre
+    // ww/hh: radial
+    // s_angle: starting angle in degrees. 0 = E, measured anticlockwise
+    // dgr: length of segment 0-360 measured anticlockwise (negative = clockwise)
+}
 
+void ch12ex04(Simple_window& win) {
     // ch12ex04 define a class Immovable_circle, inheriting from Circle
-    {
-        Immovable_circle i_c{Point{100, 100}, 50};
-        win.attach(i_c);
-        win.wait_for_button();
-        try {
-            i_c.move(1, 1); // deleted function
-        } catch (exception& e) {
-            cout << "Error: " << e.what() << endl;
-        }
-        win.wait_for_button();
+    Immovable_circle i_c{Point{100, 100}, 50};
+    win.attach(i_c);
+    win.wait_for_button();
+    try {
+        i_c.move(1, 1); // deleted function
+    } catch (exception& e) {
+        cout << "Error: " << e.what() << endl;
     }
+    win.wait_for_button();
+}
+
+void ch12ex05(Simple_window& win){
+    Striped_rectangle r{Point{200, 200}, 100, 150};
+    win.attach(r);
+    win.wait_for_button();
+    r.move(50, 50);
+    win.wait_for_button();
 }
