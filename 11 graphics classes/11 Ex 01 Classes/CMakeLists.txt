@@ -33,8 +33,8 @@ set(PROJECT_SOURCES
         ex03_circle_ellipse_points.h
         Smiley.cpp
         Smiley.h
-        ../../../../../../../../../opt/homebrew/lib/QtGui.framework/Headers/Frowny.cpp
-        ../../../../../../../../../opt/homebrew/lib/QtGui.framework/Headers/Frowny.h
+        Frowny.cpp
+        Frowny.h
         Immovable_circle.cpp
         Immovable_circle.h
 )
