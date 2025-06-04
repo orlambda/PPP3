@@ -37,6 +37,8 @@ set(PROJECT_SOURCES
         Frowny.h
         Immovable_circle.cpp
         Immovable_circle.h
+        Improved_ellipse.cpp
+        Improved_ellipse.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

@@ -9,6 +9,7 @@
 #include <numbers>
 
 #include "Arrow.h"
+#include "Improved_ellipse.h"
 
 constexpr double pi = std::numbers::pi;
 
@@ -74,18 +75,26 @@ Point w(const Ellipse& r) {
 }
 
 Point ne(const Ellipse& r) {
-    return Point{r.center().x + r.major(), r.center().y - r.minor()};
+    Improved_ellipse er{r.center(), r.major(), r.minor()};
+    return er.ne();
+    // return Point{r.center().x + r.major(), r.center().y - r.minor()};
 }
 
 Point nw(const Ellipse& r) {
+    Improved_ellipse er{r.center(), r.major(), r.minor()};
+    return er.nw();
     return Point{r.center().x - r.major(), r.center().y - r.minor()};
 }
 
 Point se(const Ellipse& r) {
+    Improved_ellipse er{r.center(), r.major(), r.minor()};
+    return er.se();
     return Point{r.center().x + r.major(), r.center().y + r.minor()};
 }
 
 Point sw(const Ellipse& r) {
+    Improved_ellipse er{r.center(), r.major(), r.minor()};
+    return er.sw();
     return Point{r.center().x - r.major(), r.center().y + r.minor()};
 }
 
