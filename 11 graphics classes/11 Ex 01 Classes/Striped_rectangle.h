@@ -12,8 +12,6 @@ struct Striped_rectangle : Rectangle {
 public:
     using Rectangle::Rectangle;
     void draw_specifics(Painter& painter) const override;
-private:
-    Vector_ref<Line> lines;
 };
 
 

@@ -13,7 +13,7 @@
  * Ch 12 Ex 01: Smiley and frowny
  * Lots of possible improvements: see striped rectangle for not storing other drawn shapes as member ds
  * Ch 12 Ex 05: Striped Rectangle
- * Ch 12 Ex 06:
+ * Ch 12 Ex 06: Striped Circle
  * Ch 12 Ex 08:
  *
  *
@@ -32,6 +32,7 @@
 #include "Immovable_circle.h"
 #include "Improved_ellipse.h"
 #include "Smiley.h"
+#include "Striped_circle.h"
 #include "Striped_rectangle.h"
 
 using namespace Graph_lib;
@@ -42,20 +43,17 @@ void ch11(Simple_window& win);
 void ch12ex01(Simple_window& win);
 void ch12ex04(Simple_window& win);
 void ch12ex05(Simple_window& win);
+void ch12ex06(Simple_window& win);
 
 int main()
 {
     Application app;
     Simple_window win({20, 20}, 1000, 1000, "Main window");
 
-    // ch11(win); // uncomment to run Ch 11 Exes 01-03 & 09
-    // ch12ex01(win); // uncomment to run Ch 12 Ex 01
-    // ch12ex05(win); // uncomment to run Ch 12 Ex 05
-    Improved_ellipse e{Point{200, 200}, 10, 50};
-    // win.attach(e);
-    // double distance_between_focal_points = abs(e.focus1().x - e.focus2().x) + abs(e.focus1().y - e.focus2().y);
-    cout << "Focal length (using my function): " << e.focal_length() << endl;
-
+    ch11(win); // uncomment to run Ch 11 Exes 01-03 & 09: Arrow, Rectangular Points, Circle Points, Ellipse Points, Ellipse Foci
+    ch12ex01(win); // uncomment to run Ch 12 Ex 01: Smiley and Frowney
+    ch12ex05(win); // uncomment to run Ch 12 Ex 05: Striped Rectangle
+    ch12ex06(win); // uncoment to run Ch 12 Ex 06: Striped Circle
 }
 
 void ch11(Simple_window& win) {
@@ -78,7 +76,7 @@ void ch11(Simple_window& win) {
         win.attach(rect);
         Arrow arrow {centre(rect), sw(rect)};
         win.attach(arrow);
-        // win.wait_for_button(); // uncomment to see this code
+        win.wait_for_button(); // uncomment to see this code
     }
     // Ch 11 Ex 03 Circle points
     {
@@ -86,7 +84,7 @@ void ch11(Simple_window& win) {
         win.attach(circ);
         Arrow arrow {centre(circ),sw(circ)};
         win.attach(arrow);
-        // win.wait_for_button(); // uncomment to see this code
+        win.wait_for_button(); // uncomment to see this code
     }
     // Ch 11 Ex 03 Ellipse points
     {
@@ -94,10 +92,15 @@ void ch11(Simple_window& win) {
         win.attach(el);
         Arrow arrow {centre(el),sw(el)};
         win.attach(arrow);
-        // win.wait_for_button();
+        win.wait_for_button();
     }
     // Ch 11 Ex 09 Ellipse foci
     {
+        // Improved_ellipse e{Point{200, 200}, 10, 50};
+        // win.attach(e);
+        // double distance_between_focal_points = abs(e.focus1().x - e.focus2().x) + abs(e.focus1().y - e.focus2().y);
+        // cout << "Focal length (using my function): " << e.focal_length() << endl;
+
         // Draw a 300-by-200-pixel ellipse. Draw a 400-pixel-long x axis and a 300-pixel-long
         // y axis through the center of the ellipse. Mark the foci. Mark a point on the ellipse
         // that is not on one of the axes. Draw the two lines from the foci to the point.
@@ -156,5 +159,13 @@ void ch12ex05(Simple_window& win){
     win.attach(r);
     win.wait_for_button();
     r.move(50, 50);
+    win.wait_for_button();
+}
+
+void ch12ex06(Simple_window& win){
+    Striped_circle c{Point{200, 200}, 100};
+    win.attach(c);
+    win.wait_for_button();
+    c.move(50, 50);
     win.wait_for_button();
 }

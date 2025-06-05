@@ -39,6 +39,10 @@ set(PROJECT_SOURCES
         Immovable_circle.h
         Improved_ellipse.cpp
         Improved_ellipse.h
+        Striped_rectangle.cpp
+        Striped_rectangle.h
+        Striped_circle.cpp
+        Striped_circle.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
