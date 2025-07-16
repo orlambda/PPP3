@@ -3,6 +3,11 @@
 **/.idea/*
 .idea/*
 
+### VSC ###
+# 
+*.sln
+*.vcxproj
+
 ### Stroustrup's support files ###
 
 PPP_support/*
@@ -11,6 +16,7 @@ PPP_support/*
 
 ERRATA.md
 qt\ starting\ project/
+**/UserGuide.*
 
 # Created by https://www.toptal.com/developers/gitignore/api/qt
 # Edit at https://www.toptal.com/developers/gitignore?templates=qt
