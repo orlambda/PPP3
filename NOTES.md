@@ -16,7 +16,7 @@ Drill
 Window.h
 
 ## Currently reading
-§14.5-14.7 (11 pages) = 1 hour
+§15
 
 ## Notes
 
@@ -32,3 +32,4 @@ Window.h
 ### §14
 
 An action defined in our program that is invoked by the system in response to some user-action (e.g., ‘‘clicking’’ a button) is call a callback
+
