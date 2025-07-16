@@ -8,10 +8,6 @@
 *.sln
 *.vcxproj
 
-### Stroustrup's support files ###
-
-PPP_support/*
-
 ### my notes etc ###
 
 ERRATA.md
