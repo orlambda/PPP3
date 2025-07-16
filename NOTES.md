@@ -1,3 +1,13 @@
+## Files to redo
+- 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
+- 09 iostreams/09 Ex 01 read write file lowercase/cmake-build-debug/input.txt
+- 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
+- 11 graphics classes/11 Ex 01 Classes/CMakeLists.txt
+- 11 graphics classes/11 Ex 01 Classes/main.cpp
+- 12 Class Design/12 Ex 01 Smiley/Smiley.cpp
+- 12 Class Design/12 Ex 01 Smiley/Smiley.h
+- PPP_support/CLion template for main cpp.txt
+
 ## Exercises to come back to
 ### §10
 (12)
