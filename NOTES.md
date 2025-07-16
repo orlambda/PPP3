@@ -8,6 +8,11 @@
 - 12 Class Design/12 Ex 01 Smiley/Smiley.h
 - PPP_support/CLion template for main cpp.txt
 
+## Are these necessary?
+.vcxproj
+.sln
+These are present in some projects and missing in others. They are curently marked in .gitignore.
+
 ## Exercises to come back to
 ### §10
 (12)
