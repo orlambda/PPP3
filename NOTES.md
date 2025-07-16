@@ -1,4 +1,11 @@
-## Files to redo
+## TODO
+- Are these necessary?
+    .vcxproj
+    .sln
+    These are present in some projects and missing in others. They are curently marked in .gitignore.
+- Rename commits using '§' to label exercises
+
+### Files to redo
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
 - 09 iostreams/09 Ex 01 read write file lowercase/cmake-build-debug/input.txt
 - 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
@@ -8,30 +15,25 @@
 - 12 Class Design/12 Ex 01 Smiley/Smiley.h
 - PPP_support/CLion template for main cpp.txt
 
-## Are these necessary?
-.vcxproj
-.sln
-These are present in some projects and missing in others. They are curently marked in .gitignore.
-
-## Exercises to come back to
-### §10
+### Exercises to come back to
+#### §10
 (12)
-### §12
+#### §12
 Drill (again)
 (7)
-### §13
+#### §13
 Drill
 2, 3, 4, 11
-## §14
+#### §14
 Drill
 1, 2, 3, 4, (5), 6, 7, (10)
 
-## Read / re-read
+### Read / re-read
 
 Window.h
 
 ## Currently reading
-§15
+15.5.1 - 15.7
 
 ## Notes
 
