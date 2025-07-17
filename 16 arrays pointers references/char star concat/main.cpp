@@ -9,7 +9,7 @@ char * concat(char* name, char* address)
     int final_size = name_size + strlen(address) + 2; // +2 for '@' and terminating 0
     char* result = (char*) malloc(final_size);
     strcpy (result, name);
-    result[name_size] = '@';
+    result[name_size+1] = '@';
     strcpy(result+2, address);
     return result;
 }
