@@ -14,7 +14,6 @@
 - 11 graphics classes/11 Ex 01 Classes/main.cpp
 - 12 Class Design/12 Ex 01 Smiley/Smiley.cpp
 - 12 Class Design/12 Ex 01 Smiley/Smiley.h
-- PPP_support/CLion template for main cpp.txt
 
 ### Exercises to come back to
 #### §10
@@ -34,7 +33,7 @@ Drill
 Window.h
 
 ## Currently reading
-15.5.1 - 15.7
+§16-16.2 (25 mins)
 
 ## Notes
 
