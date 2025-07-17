@@ -23,14 +23,24 @@ Link* advance(Link* p, int n) {
     while (0<n) {
         --n;
         if (p->succ)
+        {
             p = p->succ;
-        return nullptr;
+        }
+        else
+        {
+            return nullptr;
+        }
     }
     while (n<0) {
         ++n;
         if (p->prev)
+        {
             p = p->prev;
-        return nullptr;
+        }
+        else
+        {
+            return nullptr;
+        }
     }
     return p;
 }
@@ -44,6 +54,6 @@ int main()
     norse_gods->succ->prev = norse_gods;
     Link* current = norse_gods;
     current = advance(current, 2);
-    current = advance(current, -2);
+    current = advance(current, -1);
     cout << current->value;
 }
