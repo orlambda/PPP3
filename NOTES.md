@@ -33,7 +33,7 @@ Drill
 Window.h
 
 ## Currently reading
-§16-16.2 (25 mins)
+§16.4.3-drill (30 mins)
 
 ## Notes
 
@@ -48,5 +48,5 @@ Window.h
 
 ### §14
 
-An action defined in our program that is invoked by the system in response to some user-action (e.g., ‘‘clicking’’ a button) is call a callback
+An action defined in our program that is invoked by the system in response to some user-action (e.g., "clicking" a button) is call a callback
 
