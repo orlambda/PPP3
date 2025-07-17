@@ -28,10 +28,24 @@ bool is_palindrome(const char* first, const char* last)
     return true;
 }
 
+// Version 1
 bool is_palindrome(std::span<char> s)
 {
-    return (s.size()? is_palindrome(s.data(), s.data()+s.size()) : true);
+    // This should be s.size()-2 if span includes terminating 0
+    return (s.size()? is_palindrome(s.data(), s.data()+s.size()-1) : true);
 }
+
+// Version 2
+// bool is_palindrome(std::span<char> s)
+// {
+//     if (s.size()<2)
+//         {return true;}
+//     if (s.front()==s.back())
+//     {
+//         return is_palindrome(std::span<char>{s.data()+1,s.size()-2});
+//     }
+//     return false;
+// }
 
 int main()
 {
@@ -40,7 +54,7 @@ int main()
     std::cout << "Is \"ha\" a palindrome?: " << is_palindrome("ha") << std::endl;
     char char_arr[]{"hah"};
     std::cout << "Is \"hah\" a palindrome?: " << is_palindrome(&char_arr[0], &char_arr[2]) << std::endl;
-    std::span spn {char_arr};
+    std::span spn {char_arr,strlen(char_arr)};
     std::cout << "Is \"hah\" a palindrome?: " << is_palindrome(spn) << std::endl;
     return 0;
 }
