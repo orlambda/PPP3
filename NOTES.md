@@ -1,4 +1,11 @@
 ## TODO
+
+### Today
+#### §13
+- Drill
+- 2
+- 3
+
 - Are these necessary?
     .vcxproj
     .sln
@@ -12,8 +19,6 @@
 - 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
 - 11 graphics classes/11 Ex 01 Classes/CMakeLists.txt
 - 11 graphics classes/11 Ex 01 Classes/main.cpp
-- 12 Class Design/12 Ex 01 Smiley/Smiley.cpp
-- 12 Class Design/12 Ex 01 Smiley/Smiley.h
 
 ### Exercises to come back to
 #### §10
@@ -33,7 +38,7 @@ Drill
 Window.h
 
 ## Currently reading
-§16.4.3-drill (30 mins)
+§17
 
 ## Notes
 
