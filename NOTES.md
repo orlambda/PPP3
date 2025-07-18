@@ -1,15 +1,12 @@
 ## TODO
 
-### Today
-#### §13
+#### Today
+##### §13
 - Drill
 - 2
 - 3
 
-- Are these necessary?
-    .vcxproj
-    .sln
-    These are present in some projects and missing in others. They are curently marked in .gitignore.
+
 - Rename commits using '§' to label exercises
 - Rename commits using 'Add code to' to 'Add project to' or 'Add program to'
 
