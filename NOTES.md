@@ -3,11 +3,12 @@
 ### Today
 
 #### Reading
-17-17.4
+17.4-17.5 (40 mins, lil break)
 
 #### Exercises
 
 #### Other
+p499 try this
 
 ### Files to check/redo?
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
