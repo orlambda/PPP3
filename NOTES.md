@@ -8,9 +8,6 @@
 #### Exercises
 
 #### Other
-- Update README
-
-
 
 ### Files to check/redo?
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
