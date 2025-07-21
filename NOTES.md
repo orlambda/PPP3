@@ -1,16 +1,18 @@
 ## TODO
 
-#### Today
-##### §13
-- Drill
-- 2
-- 3
+### Today
+
+#### Reading
+17-17.4
+
+#### Exercises
+
+#### Other
+- Update README
 
 
-- Rename commits using '§' to label exercises
-- Rename commits using 'Add code to' to 'Add project to' or 'Add program to'
 
-### Files to redo
+### Files to check/redo?
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
 - 09 iostreams/09 Ex 01 read write file lowercase/cmake-build-debug/input.txt
 - 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
@@ -31,14 +33,9 @@ Drill
 1, 2, 3, 4, (5), 6, 7, (10)
 
 ### Read / re-read
-
 Window.h
 
-## Currently reading
-§17
-
 ## Notes
-
 ### §13
 
 §13.4
