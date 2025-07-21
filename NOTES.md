@@ -3,7 +3,10 @@
 ### Today
 
 #### Reading
-17.4-17.5 (40 mins, lil break)
+17.7-17.8.3 (20)
+17.8.3-drill (20)
+Re-read
+17.5.1, 17.5.2
 
 #### Exercises
 
