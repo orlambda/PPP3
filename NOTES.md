@@ -48,3 +48,28 @@ Window.h
 
 An action defined in our program that is invoked by the system in response to some user-action (e.g., "clicking" a button) is call a callback
 
+
+### §17
+
+#### §17.5.1 - Explicit constructors
+
+A constructor with a single parameter defines a conversion from its parameter type to its class.
+
+
+vector<int> v1{3}; // ok
+vector<int> v2(3); // ok - considered explicit - creates a vector 3 ints
+vector<int> v3 = 3; // odd
+v3 = 10; // odd - assigns a new vector of 20 ints
+
+void f(vector<int>& v){}
+f(10); // calls f with a new vector of 10 ints
+
+class Vector {
+    // ...
+    explicit Vector(int); // prevents implicit int-to-Vector conversion
+}
+
+Vector v1 = 1; // error - implicit
+Vector v2(10); // ok - explicit
+f(10); // error - implicit
+f(Vector(10)); // ok - explicit
