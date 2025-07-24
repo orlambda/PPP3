@@ -3,13 +3,15 @@
 ### Today
 
 #### Reading
-Re-read
-17.5.1, 17.5.2
+§18-18.1.2
 
 #### Exercises
 
 #### Other
-p499 try this
+- Add to ERRORS.md
+- Organise graphics chapters
+    - Move Qt and graph_lib to parent folder
+    - Move each exercise to its own directory / main.cpp
 
 ### Files to check/redo?
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
@@ -35,7 +37,8 @@ Drill
 Window.h
 
 ## Notes
-### §13
+
+### §13 Graphing Functions and Data
 
 §13.4
     draw() vs draw_specifics()
@@ -44,17 +47,14 @@ Window.h
 §13.6.3 scaling
     check p403 loop and work backwards
 
-### §14
+### §14 GUI
 
 An action defined in our program that is invoked by the system in response to some user-action (e.g., "clicking" a button) is call a callback
 
 
-### §17
+### §17 Essential Operations
 
 #### §17.5.1 - Explicit constructors
-
-A constructor with a single parameter defines a conversion from its parameter type to its class.
-
 
 vector<int> v1{3}; // ok
 vector<int> v2(3); // ok - considered explicit - creates a vector 3 ints
@@ -73,3 +73,9 @@ Vector v1 = 1; // error - implicit
 Vector v2(10); // ok - explicit
 f(10); // error - implicit
 f(Vector(10)); // ok - explicit
+
+### 18 Templates
+The process of generating types (classes) from a class template given template arguments is called specialization or template instantiation.
+For example, Vector<char> and Vector<Open_polyline*> are said to be specializations of Vector.
+
+A constructor with a single parameter defines a conversion from its parameter type to its class.
