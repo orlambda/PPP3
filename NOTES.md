@@ -3,7 +3,7 @@
 ### Today
 
 #### Reading
-§18.2-18.3.1 (25 mins)
+rest of §18
 
 #### Exercises
 
