@@ -3,7 +3,8 @@
 ### Today
 
 #### Reading
-rest of §18
+§19 - 29 pages = 3 hours
+§19-19.1.3 = 20 minutes
 
 #### Exercises
 
@@ -35,7 +36,7 @@ Drill
 
 ### Read / re-read
 Window.h
-§18.4
+§18.4(.4)
 
 ## Notes
 
@@ -89,3 +90,4 @@ T::value_type: see https://stackoverflow.com/questions/44571362/what-is-the-use-
 p524: should `space==0` be `space!=0`? why is 8 enough space, not `sizeof(T)`?
 p524: why does `Vector<T,A>::resize()` call `destroy()` but not `alloc.deallocate()`, like in `Vector<T,A>::reserve()`?
 I think because `reserve()` deallocates the space with `delete` (§17.8.2). but why is `destroy()` necessary? does `reserve()` not already destroy those objects, and if not, does it not need to?
+p536, Vector::operator=() (second version): why not `return *this` after destroying elements?
