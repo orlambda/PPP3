@@ -3,7 +3,7 @@
 ### Today
 
 #### Reading
-§18-18.1.2
+§18.2-18.3.1 (25 mins)
 
 #### Exercises
 
@@ -79,3 +79,7 @@ The process of generating types (classes) from a class template given template a
 For example, Vector<char> and Vector<Open_polyline*> are said to be specializations of Vector.
 
 A constructor with a single parameter defines a conversion from its parameter type to its class.
+
+Concept: a set of requirements on a set of template arguments.
+
+T::value_type: see https://stackoverflow.com/questions/44571362/what-is-the-use-of-value-type-in-stl-containers
