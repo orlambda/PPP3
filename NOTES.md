@@ -35,6 +35,7 @@ Drill
 
 ### Read / re-read
 Window.h
+§18.4
 
 ## Notes
 
@@ -83,3 +84,8 @@ A constructor with a single parameter defines a conversion from its parameter ty
 Concept: a set of requirements on a set of template arguments.
 
 T::value_type: see https://stackoverflow.com/questions/44571362/what-is-the-use-of-value-type-in-stl-containers
+
+## Questions
+p524: should `space==0` be `space!=0`? why is 8 enough space, not `sizeof(T)`?
+p524: why does `Vector<T,A>::resize()` call `destroy()` but not `alloc.deallocate()`, like in `Vector<T,A>::reserve()`?
+I think because `reserve()` deallocates the space with `delete` (§17.8.2). but why is `destroy()` necessary? does `reserve()` not already destroy those objects, and if not, does it not need to?
