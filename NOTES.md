@@ -4,7 +4,7 @@
 
 #### Reading
 §19 - 29 pages = 3 hours
-§19-19.1.3 = 20 minutes
+§19.4-19.5 = 30 mins
 
 #### Exercises
 
@@ -89,10 +89,12 @@ T::value_type: see https://stackoverflow.com/questions/44571362/what-is-the-use-
 ## Questions
 19_2_1 (p554): why can't `high()` be assigned to `jill_high`? my ugly solution - or use `auto`? is the problem with the code the leak if `delete[] jack_data;` is never reached? is the solution wrapping jack_data in a class - would I need to implement ALL operations?
 
-p524: should `space==0` be `space!=0`? why is 8 enough space, not `sizeof(T)`?
+p524: should `space==0` be `space!=0`? why 8? will calling this repeatedly keep increasing the ratio of uninitialised to initialised space?
 p524: why does `Vector<T,A>::resize()` call `destroy()` but not `alloc.deallocate()`, like in `Vector<T,A>::reserve()`?
 I think because `reserve()` deallocates the space with `delete` (§17.8.2). but why is `destroy()` necessary? does `reserve()` not already destroy those objects, and if not, does it not need to?
 p536, Vector::operator=() (second version): why not `return *this` after destroying elements?
  
 with a destructor that delete its data?
 p558: `curr` is private, does it need a public method to get its data? what about `*this==*b`?
+p559: The standard-library vector doesn’t provide push_front(). Why not? Implement push_front() for vector and compare it to push_back().'
+    Is this because a vector's contents are stored in an array, and pushing to the front would require moving every element in the array?
