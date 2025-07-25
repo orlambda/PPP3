@@ -87,7 +87,7 @@ Concept: a set of requirements on a set of template arguments.
 T::value_type: see https://stackoverflow.com/questions/44571362/what-is-the-use-of-value-type-in-stl-containers
 
 ## Questions
-19_2_1 (p554): why can't `high()` be assigned to `jill_high`? my ugly solution? is the problem with the code the leak if `delete[] jack_data;` is never reached? is the solution wrapping jack_data in a class - would I need to implement ALL operations?
+19_2_1 (p554): why can't `high()` be assigned to `jill_high`? my ugly solution - or use `auto`? is the problem with the code the leak if `delete[] jack_data;` is never reached? is the solution wrapping jack_data in a class - would I need to implement ALL operations?
 
 p524: should `space==0` be `space!=0`? why is 8 enough space, not `sizeof(T)`?
 p524: why does `Vector<T,A>::resize()` call `destroy()` but not `alloc.deallocate()`, like in `Vector<T,A>::reserve()`?
