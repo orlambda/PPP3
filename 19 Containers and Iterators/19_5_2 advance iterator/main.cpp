@@ -8,23 +8,13 @@
 template<std::forward_iterator Iter>
 void advance(Iter& p, int n)
 {
-    while (n != 0)
-    {
-        if (0<n)
-        {
-            while (0<n) {
-                ++p;
-                --n;
-            }
-        }
-        else
-        {
-            while (0>n) {
-                --p;
-                ++n;
-            }
-
-        }
+    while (0<n) {
+        ++p;
+        --n;
+    }
+    while (0>n) {
+        --p;
+        ++n;
     }
 }
 
