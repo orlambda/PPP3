@@ -28,6 +28,10 @@ int main()
 // Output array: [f2:f2+(e1-f1)]
 void copy(int* f1, int* e1, int* f2)
 {
+    if (e1 < f1)
+    {
+        return;
+    }
     int* max = f2+(e1-f1);
     while (f2 < max)
     {
