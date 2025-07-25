@@ -20,7 +20,7 @@ int main()
 {
     int a[] {10, 20, -1};
     int b[] {0, 0, 0};
-    copy(a,a+(sizeof(a) / sizeof(a[0])),b);
+    copy(std::begin(a),std::end(a),b);
     std::cout << b[0] << " " << b[1] << " " << b[2] << "\n";
 }
 
