@@ -2,25 +2,13 @@
 
 ### Today
 
-#### Reading
-§20.3-drill (90 mins)
-
-#### Exercises
-
-#### Other
+### Misc
 - Add to ERRORS.md
     - from commits
 - Organise graphics chapters
     - Move Qt and graph_lib to parent folder
     - Move each exercise to its own directory / main.cpp
 - p592: for (auto p = lst.end(); p!=lst::begin(); −−p) cout << ∗p << '\n'; are these 1 too high? can you check for p<lst::begin()?
-
-### Files to check/redo?
-- 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
-- 09 iostreams/09 Ex 01 read write file lowercase/cmake-build-debug/input.txt
-- 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
-- 11 graphics classes/11 Ex 01 Classes/CMakeLists.txt
-- 11 graphics classes/11 Ex 01 Classes/main.cpp
 
 ### Exercises to come back to
 #### §10
@@ -41,6 +29,13 @@ p571 write match()
 Window.h
 §18.4(.4)
 §20.6.4-drill
+
+### Files to check/redo?
+- 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
+- 09 iostreams/09 Ex 01 read write file lowercase/cmake-build-debug/input.txt
+- 09 iostreams/09 Ex 01 read write file lowercase/main.cpp
+- 11 graphics classes/11 Ex 01 Classes/CMakeLists.txt
+- 11 graphics classes/11 Ex 01 Classes/main.cpp
 
 ## Notes
 
@@ -104,3 +99,7 @@ p559: The standard-library vector doesn’t provide push_front(). Why not? Imple
     Is this because a vector's contents are stored in an array, and pushing to the front would require moving every element in the array?
 
 p592: "The difference between an input iterator and a forward iterator is that you can traverse a sequence repeatedly using a forward iterator." What does this mean?
+
+p609: What is a better way? 
+
+p622: void print same - print_same?
