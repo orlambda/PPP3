@@ -3,16 +3,17 @@
 ### Today
 
 #### Reading
-§19 - 29 pages = 3 hours
-§19.4-19.5 = 30 mins
+§20.3-drill (90 mins)
 
 #### Exercises
 
 #### Other
 - Add to ERRORS.md
+    - from commits
 - Organise graphics chapters
     - Move Qt and graph_lib to parent folder
     - Move each exercise to its own directory / main.cpp
+- p592: for (auto p = lst.end(); p!=lst::begin(); −−p) cout << ∗p << '\n'; are these 1 too high? can you check for p<lst::begin()?
 
 ### Files to check/redo?
 - 09 iostreams/09 09.10.01 integer dec hex output/main.cpp
@@ -33,10 +34,13 @@ Drill
 #### §14
 Drill
 1, 2, 3, 4, (5), 6, 7, (10)
+#### §19
+p571 write match()
 
 ### Read / re-read
 Window.h
 §18.4(.4)
+§20.6.4-drill
 
 ## Notes
 
@@ -98,3 +102,5 @@ with a destructor that delete its data?
 p558: `curr` is private, does it need a public method to get its data? what about `*this==*b`?
 p559: The standard-library vector doesn’t provide push_front(). Why not? Implement push_front() for vector and compare it to push_back().'
     Is this because a vector's contents are stored in an array, and pushing to the front would require moving every element in the array?
+
+p592: "The difference between an input iterator and a forward iterator is that you can traverse a sequence repeatedly using a forward iterator." What does this mean?
